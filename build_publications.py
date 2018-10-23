@@ -26,7 +26,7 @@ refereed = 0
 first_author = 0
 Ncitations = []
 
-print "Constructing publication list..."
+print("Constructing publication list...")
 papers_info = queryADS(authors="Merson,A",sortBy="NDATE",refereed=None)
 text = ""
 progress = Progress(len(papers_info))
